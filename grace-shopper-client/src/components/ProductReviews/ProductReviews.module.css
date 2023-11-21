@@ -1,0 +1,45 @@
+.reviews {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.reviewer > p {
+  margin: 0;
+  background-color: orange;
+  padding: 8px 12px;
+  border-radius: 100%;
+}
+
+.reviewer > h2 {
+  margin: 0;
+}
+
+hr {
+  width: 100%;
+}
+
+.fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+
+.input {
+  flex: 1;
+  border-radius: 1rem;
+  height: 32px;
+  padding: 0 1rem;
+}
+
+.fieldset > button {
+  margin: 0;
+}

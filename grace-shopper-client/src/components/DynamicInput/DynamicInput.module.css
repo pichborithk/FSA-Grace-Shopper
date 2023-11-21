@@ -1,0 +1,79 @@
+.div {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.fieldset {
+  display: flex;
+  position: relative;
+  width: 100%;
+  gap: 0.5rem;
+
+  color: orange;
+  border: none;
+  padding: 0;
+}
+
+.label {
+  position: absolute;
+  left: 0.5rem;
+  top: 0.2rem;
+  padding: 0 0.5rem;
+
+  font-size: 1rem;
+  pointer-events: none;
+}
+
+.fieldset:focus-within > label,
+.active {
+  background-color: white;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+  transform: translate(5px, -18px);
+  transition: all 0.3s ease-in-out;
+}
+
+.label:focus-within {
+  color: orange;
+}
+
+.input:focus {
+  outline-color: orange;
+  /* background-color: #ffa500;
+  color: #f8f9fa; */
+}
+
+.input {
+  flex: 1 1 0%;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  padding: 0.5rem 1rem;
+}
+
+.removeBtn {
+  border-radius: 0.5rem;
+  border: 1px solid orange;
+  padding: 0 1rem;
+}
+
+.removeBtn:hover {
+  background-color: orange;
+  color: white;
+}
+
+.addBtn {
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 2px solid orange;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  color: orange;
+  background-color: inherit;
+}
+
+.addBtn:hover {
+  background-color: orange;
+  color: white;
+}

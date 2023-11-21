@@ -1,0 +1,29 @@
+.footerLink {
+  text-decoration: none;
+  margin: 10px;
+  color: black;
+  border-right: 2px solid black; /* Add a right border */
+  padding-right: 13px;
+}
+
+.footerLink:hover {
+  color: rgb(128, 49, 49);
+}
+
+.footerNav {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  width: 100%;
+}
+
+.firstFootNav {
+  border-left: solid black 2px;
+  padding-left: 13px;
+}
+
+@media (min-width: 50%) {
+  .footerNav {
+    justify-content: space-around; /* Increase spacing when window width is above 50% */
+  }
+}
