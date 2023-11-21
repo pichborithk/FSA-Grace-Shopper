@@ -1,1 +1,1 @@
-# FullStack Academy Grace Shopper Project
+# Fullstack Academy Grace Shopper Project
